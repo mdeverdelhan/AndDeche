@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 Marc de Verdelhan (http://www.verdelhan.eu/)
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"> 
+    
+<ScrollView android:id="@+id/scrollViewDialog" android:layout_width="fill_parent" android:layout_height="wrap_content"> 
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/nom" android:textStyle="bold" android:layout_alignParentLeft="true" android:textColor="#fff" android:textSize="13sp"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/distance" android:textStyle="bold" android:textColor="#0f0" android:layout_alignParentRight="true" android:textSize="13sp"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/adresse" android:layout_below="@+id/nom" android:textSize="11sp" android:layout_marginBottom="8sp"></TextView>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/adresse" android:layout_alignParentRight="true" android:textStyle="bold" android:id="@+id/btnMore" android:background="@drawable/empty_bg" android:textSize="11sp" android:text="[+]" android:textColor="#0ff"></Button>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/adresse" android:layout_marginBottom="6sp" android:id="@+id/horairesLayout">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/labelJoursOuverts" android:textSize="11sp" android:textStyle="bold" android:text="Ouvert : " android:textColor="#fff" android:width="60sp"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/texteJoursOuverts" android:textSize="11sp" android:text=" " android:layout_alignBaseline="@+id/labelJoursOuverts" android:layout_toRightOf="@+id/labelJoursOuverts" android:textColor="#fff"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/labelHoraires" android:textSize="11sp" android:textStyle="bold" android:layout_below="@+id/texteJoursOuverts" android:text="Horaires : " android:textColor="#fff" android:width="60sp"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/texteHoraires" android:textSize="11sp" android:text=" " android:layout_toRightOf="@+id/labelHoraires" android:textColor="#fff" android:layout_alignBaseline="@+id/labelHoraires"></TextView>
+
+
+
+
+</RelativeLayout><RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/horairesLayout" android:id="@+id/acceptesLayout" android:layout_marginBottom="6sp"><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Déchets acceptés :" android:id="@+id/labelAcceptes" android:textColor="#0f0" android:textSize="11sp" android:textStyle="bold"></TextView><TextView android:layout_below="@id/labelAcceptes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/texteAcceptes" android:text=" " android:textColor="#fff" android:textSize="11sp" android:layout_marginLeft="20sp"></TextView>
+<TextView android:layout_below="@id/texteAcceptes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/labelRefuses" android:text="Déchets refusés :" android:textColor="#f00" android:textSize="11sp" android:textStyle="bold"></TextView>
+<TextView android:layout_below="@id/labelRefuses" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20sp" android:id="@+id/texteRefuses" android:text=" " android:textColor="#fff" android:textSize="11sp"></TextView>
+</RelativeLayout><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:textStyle="bold" android:background="@drawable/empty_bg" android:textSize="11sp" android:textColor="#0ff" android:id="@+id/btnSYRendre" android:text="[S'y rendre]" android:layout_centerHorizontal="true" android:layout_below="@id/acceptesLayout"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:textStyle="bold" android:background="@drawable/empty_bg" android:textSize="11sp" android:textColor="#0ff" android:id="@+id/btnLienSinoe" android:text="[Fiche sur le site de l'ADEME]" android:layout_centerHorizontal="true" android:layout_below="@id/acceptesLayout"></Button>
+
+
+</RelativeLayout>
+
+</ScrollView>
+</LinearLayout>
+
