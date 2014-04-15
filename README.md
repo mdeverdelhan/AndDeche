@@ -2,6 +2,8 @@
 
 _AndDeche!_ est une application Android de repérage des déchèteries, centres de tri (plastique, verre, papier, etc.) et autres points d'apport volontaire (PAV).
 
+Ce projet a fait l'objet d'une participation au concours [SFR Jeunes Talents Développeurs](http://www.sfrjtd.fr/) 2009.
+
 ### Fonctionnalités
 * Consultation des horaires d'ouverture, des déchets acceptés, etc.
 * Fiche descriptive issue de l'[ADEME](http://www.ademe.fr/) (Agence de l'environnement et de la maîtrise de l'énergie)
