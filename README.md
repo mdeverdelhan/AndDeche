@@ -1,3 +1,14 @@
 # AndDeche!
 
-_AndDeche!_ est une application Android de repérage des déchèteries, centres de tri (plastique, verre, papier, etc.) et autres points d'apport volontaire (PAV) les plus proches. Pour chacun d'entre eux il est possible de consulter les horaires d'ouverture, les déchets acceptés, etc. Un clic sur un bouton vous affiche une fiche descriptive issue de l'ADEME (Agence de l'environnement et de la maîtrise de l'énergie). Il est également possible d'obtenir l'itinéraire (étape par étape, via le service Google Maps) depuis sa position jusqu'à l'emplacement du PAV/de la déchèterie sélectionnée. 
+_AndDeche!_ est une application Android de repérage des déchèteries, centres de tri (plastique, verre, papier, etc.) et autres points d'apport volontaire (PAV).
+
+### Fonctionnalités
+* Consultation des horaires d'ouverture, des déchets acceptés, etc.
+* Fiche descriptive issue de l'[ADEME](http://www.ademe.fr/) (Agence de l'environnement et de la maîtrise de l'énergie)
+* Itinéraire jusqu'à la déchèterie sélectionnée
+
+## Screenshots
+
+![AndDeche! dialog](Resources/dialog.png?raw=true)&nbsp;&nbsp;![AndDeche! dialog 2](Resources/dialog2.png?raw=true)&nbsp;&nbsp;![AndDeche! map](Resources/map.png?raw=true)&nbsp;&nbsp;![AndDeche! steps](Resources/steps.png?raw=true)
+
+
